@@ -126,3 +126,47 @@
     border-color: var(--white);
 }
 
+
+@media (width<900px){
+    .references__grid{
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .references__content h1{
+        font-size: 2.3rem;
+        text-align: center;
+        letter-spacing: 0.1rem;
+    }
+
+.references__content h2{
+
+    letter-spacing: 0.2rem;
+
+}
+
+.references__card span{
+    pad: 1.5rem;
+    font-size: 3.55rem;
+}
+
+.references__card h4{
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    font-size: 1.75rem;
+}
+
+.references__card p{
+    font-size: 17px;
+}
+
+.references__card img{
+    max-width: 120px;
+    border: 3px solid var(--primary-color);
+}
+
+.references__card h5{
+    font-size: 1.5rem;
+}
+
+}

@@ -8,8 +8,8 @@ const Services = () => {
     <section className='section__container service__container'>
         <div className='service__header'>
             <div className='service__header__content'>
-                <h2 className='section__header'>
-                    Our Special Services
+                <h2>
+                    Our Services
                 </h2>
                 <p>Dolor Lorem labore mollit ipsum.Esse sunt tempor nisi amet.Ea nulla ea nulla cupidatat.</p>
             </div>
@@ -20,7 +20,7 @@ const Services = () => {
                 <span><BiSolidDonateHeart size={'2rem'}/></span>
                 <h4>Laboratory test</h4>
                 <p>
-                    Sit pariatur id tempor eiusmod exercitation exercitation Lorem excepteur sint esse aliquip. Adipisicing aute exercitation ipsum ea elit. Officia est do pariatur eiusmod. Aliqua do esse laborum mollit. Et minim aute occaecat do consectetur quis eu do ut consequat labore. Magna laboris enim minim anim reprehenderit ipsum duis duis eiusmod velit id laboris laboris. Irure ullamco do laborum id irure incididunt.
+                    Sit pariatur id tempor eiusmod exercitation exercitation Lorem excepteur sint esse aliquip. Adipisicing aute exercitation ipsum ea elit.
                 </p>
                 <a href='#'>Learn more</a>
             </div>
@@ -28,7 +28,7 @@ const Services = () => {
                 <span><RiHealthBookFill size={'2rem'}/></span>
                 <h4>Health Check</h4>
                 <p>
-                    Sit pariatur id tempor eiusmod exercitation exercitation Lorem excepteur sint esse aliquip. Adipisicing aute exercitation ipsum ea elit. Officia est do pariatur eiusmod. Aliqua do esse laborum mollit. Et minim aute occaecat do consectetur quis eu do ut consequat labore. Magna laboris enim minim anim reprehenderit ipsum duis duis eiusmod velit id laboris laboris. Irure ullamco do laborum id irure incididunt.
+                    Sit pariatur id tempor eiusmod exercitation exercitation Lorem excepteur sint esse aliquip. Adipisicing aute exercitation ipsum ea elit.
                 </p>
                 <a href='#'>Learn more</a>
             </div>
@@ -36,7 +36,7 @@ const Services = () => {
                 <span><FaHospital size={'2rem'}/></span>
                 <h4>General Care</h4>
                 <p>
-                    Sit pariatur id tempor eiusmod exercitation exercitation Lorem excepteur sint esse aliquip. Adipisicing aute exercitation ipsum ea elit. Officia est do pariatur eiusmod. Aliqua do esse laborum mollit. Et minim aute occaecat do consectetur quis eu do ut consequat labore. Magna laboris enim minim anim reprehenderit ipsum duis duis eiusmod velit id laboris laboris. Irure ullamco do laborum id irure incididunt.
+                    Sit pariatur id tempor eiusmod exercitation exercitation Lorem excepteur sint esse aliquip. Adipisicing aute exercitation ipsum ea elit.
                 </p>
                 <a href='#'>Learn more</a>
             </div>

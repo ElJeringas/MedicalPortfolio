@@ -1,5 +1,5 @@
 .footer{
-    background-color: var(--primary-color-light);
+    background-color: var(--footer-light);
 }
 
 .footer__container{
@@ -65,4 +65,24 @@
 .footer__bar__content p{
     font-size: 0.8rem;
     color: var(--white);
+}
+
+@media (width <900px){
+
+    .footer__container{
+        grid-template-columns: repeat(1,1fr);
+        gap: 1rem;
+    }
+
+    .footer__col h4{
+        margin-bottom: 1rem;
+        font-size: 1.57rem;
+        font-weight: 700;
+/*         color: var(--extra-light);
+ */    }
+
+    .footer__col p{
+        margin-bottom: 0.25rem;
+        font-size: 18px;
+    }
 }

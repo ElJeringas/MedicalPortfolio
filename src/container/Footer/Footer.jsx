@@ -29,15 +29,15 @@ const Footer = () => {
           </div>
           <div className='footer__col'>
             <h4>Social Network</h4>
-            <p><a><FaFacebook/></a>Facebook</p>
-            <p><a><IoLogoWhatsapp/></a>Whatsapp</p>
-            <p><a><IoLogoInstagram/></a>Instagram</p>
+            <p><a><FaFacebook size={20}/></a>Facebook</p>
+            <p><a><IoLogoWhatsapp size={20}/></a>Whatsapp</p>
+            <p><a><IoLogoInstagram size={20}/></a>Instagram</p>
           </div>
           <div className='footer__col'>
             <h4>Contact</h4>
-            <p><a><MdLocationPin/></a> Some direction. Ave. 95-45</p>
-            <p><a><MdEmail/></a> example@example.com</p>
-            <p><a><FaPhoneAlt/></a> +59398888888</p>
+            <p><a><MdLocationPin size={20}/></a> Some direction. Ave. 95-45</p>
+            <p><a><MdEmail size={20}/></a> example@example.com</p>
+            <p><a><FaPhoneAlt size={20}/></a> +59398888888</p>
           </div>
         </div>
         <div className='footer__bar'>

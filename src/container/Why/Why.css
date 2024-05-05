@@ -66,4 +66,19 @@
     font-family: var(--font-base);
     line-height: 1.5rem;
     color: var(--white);
+    text-align: center;
+  }
+  
+  @media (width < 900px){
+    .title{
+      font-size: 3rem;
+      text-align: center;
+      line-height: 4rem;
+      margin-bottom: 4rem;
+      letter-spacing: 0.100rem;
+  }
+  .hero__container{
+
+    grid-template-columns: repeat(1,1fr);
+}
   }
