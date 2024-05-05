@@ -5,7 +5,9 @@
   --font-alt: 'Open Sans', sans-serif;
 
   --primary-color:#28bf96;
+  --primary-color-light:#49d8ae;
   --primary-color-dark:#209677;
+  --secondary-color:#fb923c;
   --color-gray: #f7ebf3;
   --text-dark: #111827;
   --text-light: #6b7280;
@@ -30,26 +32,15 @@ a {
   text-decoration: none;
 }
 
+li{
+  list-style-type: none;
+}
+
 img {
   width: 100%;
   display: flex;
 }
 
-.btn{
-  padding: 1rem 2rem;
-  outline: none;
-  border: none;
-  font-size: 1rem;
-  color: var(--white);
-  background-color: var(--primary-color);
-  border-radius: 5px;
-  cursor: pointer;
-  transition: 0.3s;
-}
-
-.btn:hover{
-  background-color: var(--primary-color-dark);
-}
 
 .slide-bottom {
   -webkit-animation: slide-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;

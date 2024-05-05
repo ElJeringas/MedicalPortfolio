@@ -1,0 +1,22 @@
+.about__container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    align-items: center;
+}
+
+
+.about__content p{
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    line-height: 1.5rem;
+    text-align:left;
+    color: var(--text-light);
+    word-spacing: 0.61rem;
+}
+
+.about__image img {
+    max-width: 400px;
+    margin: auto;
+    border-radius: 10px;
+}

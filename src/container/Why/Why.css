@@ -1,0 +1,69 @@
+.why__bg{
+    background-image: linear-gradient(
+        to right,
+        rgba(18,172,142,.9),
+        rgba(18,172,142,.7)
+    ),url("../../assets/appointment.jpeg");
+    background-position: top 90% center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: local;
+}
+
+/* .why__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.title{
+    font-family: var(--font-base);
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1rem;
+    margin-bottom: 4rem;
+    color: var(--white);
+    letter-spacing: 0.20rem;
+}
+
+.hero__container{
+    display:grid;
+    justify-self: center;
+    align-self: center;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2rem;align-self: center;
+
+}
+.hero__card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hero__card span {
+    margin-bottom: 1rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 75px;
+    aspect-ratio: 1;
+    background-color: var(--color-gray);
+    border-radius: 100%;
+  }
+  .hero__card img {
+    max-width: 40px;
+  }
+  
+  .hero__card h4 {
+    font-family: var(--font-base);
+    color: var(--secondary-color);
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+  
+  .hero__card p {
+    font-family: var(--font-base);
+    line-height: 1.5rem;
+    color: var(--white);
+  }

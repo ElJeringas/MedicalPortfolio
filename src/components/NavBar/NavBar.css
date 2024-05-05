@@ -8,10 +8,20 @@ nav{
     gap: 1rem;
 }
 
-.nav__logo{
-    font-size: 2rem;
-    font-size: 600;
-    color: var(--primary-color);
+.nav__logo {
+    display: flex;
+    align-items: center;
+    h1{
+        font-family: var(--font-base);
+        font-size: 2rem;
+        font-size: 600;
+        color: var(--primary-color);
+    }
+}
+
+.nav__logo img {
+    margin-left: 1rem;
+    max-width: 3.25rem;
 }
 
 .nav__links{
@@ -29,4 +39,39 @@ nav{
 }
 .link a:hover{
     color: var(--primary-color);
+}
+
+@media (width < 900px) {
+    .nav__links{
+        display: none;
+    }
+
+    nav {
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+
+        .btn{
+            display: none;
+        }
+    }
+
+
+    .nav__logo {
+        margin-top: 2rem;
+        h1{
+            font-family: var(--font-base);
+            font-size: 2.5rem;
+            font-size: 600;
+            color: var(--primary-color);
+        }
+    }
+
+    .nav__logo img {
+/*         max-width: 7rem;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 1rem; */
+        display: none;
+    }
 }
